@@ -1,0 +1,30 @@
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem 0;
+
+}
+/* left side */
+.logo img{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+}
+/* right side*/
+nav{
+  display: flex;
+  flex: 2;
+  justify-content: center;
+
+}
+
+.navbar {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}

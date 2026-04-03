@@ -1,0 +1,31 @@
+#about{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.text{
+  flex: 1;
+}
+#about img{
+  flex: 1;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.text p{
+  max-width: 100ch;
+}
+summary{
+  list-style: none;
+  cursor: pointer;
+  padding: 0.1rem 0.5rem;
+  inline-size: 4rem;
+  border-radius: 15px;
+  color: var(--secondary-color);
+  transition: 0.3s ease;
+}
+summary:hover{
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: var(--primary-color-hover);
+}

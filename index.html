@@ -4,26 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/work.css" />
+    <link rel="stylesheet" href="css/cv-contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
   </head>
 
   <body>
-    <!--===== the header og my page =====-->
+    <!--===== the header =====-->
     <header>
       <!--===== logo & name =====-->
       <div class="logo">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGifOerDSUYsT3MAnRV7Ee_iIx5-3wuXxQeceSz7Ylxdj_CFw4d2q2B8k&s"
+          src="imgs/images.png"
           alt="logo"
         />
-        <h1>Picsou</h1>
       </div>
       <!--===== my nav bar =====-->
       <nav>
-        <ul>
+        <ul class="navbar">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -35,17 +51,23 @@
     </header>
     <!--===== the main =====-->
     <main>
-      <div class="container">
+      
         <!-- HOME -->
         <section id="home">
           <div class="home-content">
-            <h3>Hi, I'm <span>Picsou</span> a Graphic Designer</h3>
-            <p>
+            <div class="content">
+             <h1>Hi, I'm <span>Picsou</span> a Graphic Designer</h1>
+             <p>
               Creative graphic designer turning ideas into visuals that connect.
               I focus on clean, modern designs that tell a story and make an
               impact.
-            </p>
-            <img src="WhatsApp Image 2026-03-26 at 6.32.56 PM.jpeg" />
+             </p>
+             <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea facere hic exercitationem, molestias ipsam necessitatibus voluptatibus possimus corrupti recusandae esse. Culpa autem fuga sapiente voluptatibus doloremque ea veniam saepe consequatur
+             </p>
+            </div>
+            
+          
 
             <div class="social-links">
               <a href="https://facebook.com" target="_blank" title="Facebook">
@@ -62,89 +84,109 @@
               </a>
             </div>
           </div>
+            <div class="img"> 
+              <img src="imgs/WhatsApp Image 2026-03-26 at 6.32.56 PM.jpeg" alt="profile" class="profile-img" />
+            </div>
+          
         </section>
         <!-- ABOUT -->
         <section id="about">
-          <h3>About Me</h3>
-          <p>
+
+          <img src="imgs/a5c81d6cb0981e0fd2fabecf1eba949f.jpg" alt="ID pictur" />
+
+          <div class="text">
+           <h2>About Me</h2>
+           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
             vero voluptatibus illo quas vitae ab repudiandae ut, esse velit
             architecto cupiditate ipsum, eum labore earum magnam. Vitae et odit
             provident?
-          </p>
-          <details>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, ipsum saepe consectetur reiciendis quidem, autem, natus quasi aspernatur nostrum distinctio veritatis ab doloribus modi deserunt in animi cum ea! Itaque!
+           </p>
+           <details>
             <summary>more</summary>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
               corrupti dolorem repellendus optio, aliquam ipsum consectetur
               reiciendis dolorum earum aliquid fugiat doloremque magnam repellat
               in sed asperiores aspernatur quis nam!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio hic necessitatibus dolores eaque modi minus totam laborum sint voluptatem eligendi enim saepe, nihil voluptas distinctio nisi aliquid exercitationem odio.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio hic necessitatibus dolores eaque modi minus totam laborum sint voluptatem eligendi enim saepe, nihil voluptas distinctio nisi aliquid exercitationem odio.
             </p>
-          </details>
-          <img src="a5c81d6cb0981e0fd2fabecf1eba949f.jpg" alt="ID pictur" />
+           </details>
+          </div>
+          
         </section>
         <!-- SKILLS -->
         <section id="skills">
-          <h3>My Skills</h3>
-          <h4>Design & Creativity:</h4>
-          <ul>
-            <li>Branding & Visual Identity</li>
-            <li>Typography & Layout Design</li>
-            <li>Color Theory & Composition</li>
-            <li>Illustration & Icon Design</li>
-            <li>UX/UI Design Basics</li>
-          </ul>
-          <h4>Technical & Software Skills:</h4>
-          <ul>
-            <li>Adobe Photoshop, Illustrator, InDesign</li>
-            <li>Figma / Sketch</li>
-            <li>Canva</li>
-            <li>After Effects / Premiere Pro</li>
-            <li>HTML/CSS basics</li>
-          </ul>
+          <h2>My Skills</h2>
+
+          <div class="container1">
+           <h3>Design & Creativity:</h3>
+           <ul>
+             <li>Branding & Visual Identity</li>
+             <li>Typography & Layout Design</li>
+             <li>Color Theory & Composition</li>
+             <li>Illustration & Icon Design</li>
+             <li>UX/UI Design Basics</li>
+           </ul>
+          </div>
+
+          <div class="container2">
+          <h3>Technical & Software Skills:</h3>
+           <ul>
+             <li>Adobe Photoshop, Illustrator, InDesign</li>
+             <li>Figma / Sketch</li>
+             <li>Canva</li>
+             <li>After Effects / Premiere Pro</li>
+             <li>HTML/CSS basics</li>
+           </ul>
+          </div>
         </section>
         <!-- WORK -->
         <section id="work">
-          <h3>My Work</h3>
-          <article class="project">
-            <h4>Cafe Delight Branding</h4>
-            <p class="description">
+          <h2>My Work</h2>
+          <div class="projects">
+           <article class="project1">
+             <h3>Cafe Delight Branding</h3>
+             <p class="description">
               Redesigned the visual identity for a local cafe, focusing on a
               modern, cozy look.
-            </p>
-            <img
-              src="https://via.placeholder.com/400x300?text=Cafe+Delight+Branding"
+             </p>
+             <img
+              src="imgs/e2efef78628073.Y3JvcCwxMjUwLDk3NywwLDE1Nw.jpg"
               alt="Cafe Delight Branding Preview"
-            />
-          </article>
+             />
+           </article>
 
-          <article class="project">
-            <h4>Travel App UI Design</h4>
-            <p class="description">
+           <article class="project2">
+             <h3>Travel App UI Design</h3>
+             <p class="description">
               Developed a user-friendly interface for a travel booking app with
               interactive prototypes.
-            </p>
-            <img
-              src="https://via.placeholder.com/400x300?text=Travel+App+UI+Design"
+             </p>
+             <img
+              src="imgs/original-f74e61775e5fd31ce8740a783d2f7612.webp"
               alt="Travel App UI Design Preview"
-            />
-          </article>
+             />
+           </article>
 
-          <article class="project">
-            <h4>EcoShop Social Media Campaign</h4>
-            <p class="description">
+           <article class="project3">
+             <h3>EcoShop Social Media Campaign</h3>
+             <p class="description">
               Created graphics and templates for an eco-friendly online store's
               Instagram campaign.
-            </p>
-            <img
-              src="https://via.placeholder.com/400x300?text=EcoShop+Campaign"
+             </p>
+             <img
+              src="imgs/632598886_1354974709995407_1927032659606298547_n.jpg"
               alt="EcoShop Social Media Campaign Preview"
-            />
-          </article>
+             />
+           </article>
+          </div>
         </section>
         <!-- RESUME -->
         <section id="resume">
-          <h3>My Resume</h3>
+          <h2>My Resume</h2>
           <p>You can download my full CV here:</p>
           <a href="file/Picsou_cv.pdf" target="_blank" rel="noopener"
             >Download CV (PDF)</a
@@ -152,8 +194,11 @@
         </section>
         <!-- CONTACT -->
         <section id="contact">
-          <h3>Contact Me</h3>
-          <p>Feel free to reach out for collaboration or more info!</p>
+
+          <div class="contact-text">
+           <h2>Contact Me</h2>
+           <p>Feel free to reach out for collaboration or more info!</p>
+          </div>
 
           <form action="" method="POST">
             <label for="name">Name</label>
@@ -168,12 +213,12 @@
             <button type="submit">Submit</button>
           </form>
         </section>
-      </div>
+      
     </main>
     <!--===== the footer =====-->
     <footer>
       
-    <p>
+    <p class="links">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -197,7 +242,7 @@
               </a>
             </div>
       </p>
-      <p> 2026 Lila. Designed with love. All rights reserved.</p>
+      <p class="rights"> 2026 Lila. Designed with love. All rights reserved.</p>
 
     </footer>
   </body>
